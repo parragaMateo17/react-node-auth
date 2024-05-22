@@ -1,7 +1,10 @@
+import DefaultLayout from "../layout/DefaultLayout";
 
 export default function Signup(){
 
     return (
+
+        <DefaultLayout>    
         <form className="form">
              <h1>Signup</h1>
              <label>Username</label>
@@ -15,5 +18,6 @@ export default function Signup(){
 
              <button>Signup</button>
         </form>
+        </DefaultLayout>
     )
 }

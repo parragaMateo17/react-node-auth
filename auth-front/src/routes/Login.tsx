@@ -1,9 +1,11 @@
+import DefaultLayout from "../layout/DefaultLayout";
 
 
 export default function Login(){
 
     return (
-
+        <DefaultLayout>
+            
         <form className="form">
             <h1>Login</h1>
             <label>Username</label>
@@ -13,5 +15,6 @@ export default function Login(){
             <input type="password" />
             <button>Login</button>
         </form>
+        </DefaultLayout>
     )
 }
